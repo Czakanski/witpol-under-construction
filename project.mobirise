@@ -1,0 +1,134 @@
+{
+  "settings": {
+    "name": "Site-08-08_2301",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.4.1",
+    "siteFonts": [],
+    "imageResize": true,
+    "uniqCompNum": 6,
+    "versionPublish": "5.4.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "margin-bottom": "2px",
+            ".mbr-section-title": {
+              "text-align": "left",
+              "margin-bottom": "15px",
+              "color": "#000000"
+            },
+            ".mbr-text": {
+              "color": "#8c8c95",
+              "text-align": "center"
+            },
+            ".button-align": {
+              "text-align": "center"
+            },
+            ".mbr-section-btn": {
+              "display": "block"
+            },
+            ".btn": {
+              "margin-top": "15px",
+              "transition": "all .3s !important"
+            },
+            "a.btn > span": {
+              "margin-left": "0.5rem"
+            },
+            ".mbr-text, .button-align": {
+              "color": "#333333",
+              "text-align": "left"
+            },
+            "img": {
+              "width": "400px",
+              "position": "relative",
+              "left": "60%"
+            },
+            ".container-fluid": {
+              "outline": "2px solid #000 !important",
+              "padding": "76px 78px"
+            },
+            "@media (max-width: 1000px)": {
+              "img": {
+                "left": "50%"
+              }
+            },
+            "@media (max-width: 850px)": {
+              "img": {
+                "width": "300px"
+              }
+            },
+            "@media (max-width: 630px)": {
+              "img": {
+                "width": "100%",
+                "position": "initial",
+                "padding-top": "30px"
+              },
+              ".container-fluid": {
+                "padding": "76px 16px"
+              }
+            }
+          },
+          "_name": "features6",
+          "_sourceTheme": "agendam5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features6\" group=\"Features\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/agendam5/components/_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#92c9b5\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#34a0a4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h5 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">WITPOL AUTO</h5>\n        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .button-align\"><b>Strona w budowie...<br></b><br><br><b>Studzienice<br></b>ul. Jaskółek 21, Studzienice<br>tel. 32 326 39 90<br>witpol@witpolauto.pl<br><br><br><b>Tychy</b><br>Dział Sprzedaży<br>Wojciech Brajlich Mirosław Adamczyk<br>Doradca ds. sprzedaży Doradca ds. sprzedaży<br>32 326 22 87 32 326 22 83<br><br>Dział Ubezpieczeń i Kasa<br>Aleksandra Madejska<br>Doradca ds. Ubezpieczeń<br>32 326 22 80<br><br>Dział Serwisu i Części Zamiennych<br>Marcin Świda Tomasz Kabalski<br>Doradca ds. Serwisu i Części Doradca ds. Serwisu Mitsubishi<br>32 326 22 82 32 326 22 84<br></p>\n        <div class=\"button-align\" mbr-if=\"showButton\">\n            <div class=\"mbr-section-btn margin\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white\" href data-app-placeholder=\"Type Text\">Contact us</a></div>\n        </div>\n        <img src=\"@PROJECT_PATH@/assets/images/car.png\" alt>\n    </div>\n</section>",
+          "_cid": "te8H88opai",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features6-5"
+        }
+      ]
+    }
+  }
+}
